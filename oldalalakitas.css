@@ -1,0 +1,69 @@
+body {
+    background-color: grey;
+    color: black;
+
+}
+
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "h h h"
+    "n a as" 
+    "f f f";
+
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+
+}
+
+
+article {
+    grid-area: a;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+aside {
+    grid-area: as;
+    text-align: center;
+    margin-top: 20px;
+    color: lime;
+}
+
+footer {
+    grid-area: f;
+    text-align: center;
+    margin-top: 150px;
+    color: lime;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lime;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (max-width: 700px) {
+    
+}

@@ -1,0 +1,20 @@
+
+table {
+    margin: auto
+}
+
+th {
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color:  lightgray;
+}
+
+table, td, th {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+

@@ -1,0 +1,37 @@
+table, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table>thead>tr {
+    border: 3px solid orange;
+}
+
+th {
+    background-color: green;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    color: red;
+}
+
+.osszevont {
+    text-align: center;
+    background-color: lightseagreen ;
+}
+
+.osszevont2 {
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+.reszponszivtablazat {
+    width: 100%;
+    overflow-x: scroll;
+}
